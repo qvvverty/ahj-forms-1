@@ -1,6 +1,6 @@
 .popover {
   position: absolute;
-  display: inline-block;
+  display: none;
 
   border: 1px solid;
   border-radius: 5px;
@@ -49,4 +49,10 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: white;
+}
+
+.popover-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
